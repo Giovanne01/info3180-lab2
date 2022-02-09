@@ -1,3 +1,92 @@
 body {
     padding-top: 5rem;
+
+    
+
+}
+.container{
+    display: grid;
+    grid-template-rows: 110% 50%;
+
+    
+}
+.contents{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.card{
+    margin: 0% 25em 0% 25em;
+    border: 1px solid #970B6B;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    padding-bottom: 1%;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+img{
+    width: 10rem;    
+    border-radius: 50%;
+    box-shadow: 0 0 .8em 0 rgb(233, 210, 210);
+}
+p{
+    margin: 0;
+}
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#info h1, #info p{
+    color: white;
+}
+.top{
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #970B6B;
+    border-radius: 15px 15px 5% 5%;
+}
+.bottom{
+    padding: 3%;
+
+}
+#about{
+    padding: 0% 10% 0% 10%;
+}
+#about p{
+    text-align: center;
+}
+#follow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+}
+#follow div{
+    margin: 2%;
+}
+#follow div p{
+    text-align: center;
+}
+
+#numbers{
+    font-weight: bold;
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: .3% 8% .3% 8%;
+    background-color: #970B6B;
+    color: white;
+    border-radius: 5px;
+    border: none;
 }

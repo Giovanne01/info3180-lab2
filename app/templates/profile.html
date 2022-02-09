@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block main %}
+<div class="contents">
+    <div class="card">
+        <section class="top">
+             <div id="pro-pic">
+                 <img src="{{url_for('static',filename='web-lab2.webp')}}" alt="Profile picture">
+             </div>
+             <div id="info">
+                 <h1>Giovanne Pinto</h1>
+                 <p>@gio._vanne</p>
+                 <p>St.Andrew, Jamaica</p>
+                 <p> {{joined_date}}</p>
+             </div>
+        </section>
+        <section class="bottom">
+            <div id="about">
+                 <p>I am currently Computer Science a student and aspiring to be a Cyber-Security Architect.
+                     I procrastinate alot lowkey by playing fifa for hours even though I have assignments to complete
+                     but I'm working on it though. Hopefully by March, my procrastination rate will fall from 80% to 78.99%.
+                     Small steps.  </p>
+            </div>
+            <div id="follow">
+                <div>
+                     <p id="numbers"> 1</p>
+                     <p>Post</p>
+                </div>
+                <div>
+                    <p id="numbers">2.5k</p>
+                    <p>Following</p>
+                </div>
+                <div>
+                    <p id="numbers">10.7k</p>
+                    <p>Followers</p>
+                </div>     
+            </div>
+            <div id="button">
+                 <button>Follow</button>
+            </div>
+        </section>
+     
+     </div>
+</div>
+
+{%endblock%}
